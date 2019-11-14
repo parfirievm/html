@@ -1,0 +1,32 @@
+
+.container {
+    color: lightseagreen;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d7 button {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    padding-left: 45%;
+  }
+  .d7 button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+    
+  }
+
